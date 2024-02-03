@@ -18,19 +18,21 @@
 <div id="contener">
     <header>
         <figure>
-            <img class="profil__img" src="asset/img/profil.jpg" alt="Photo de profil">
+            <a href="./asset/img/profil.jpg" title="Ma photo en grand">  
+                <img class="profil__img" src="./asset/img/profil.jpg" alt="Photo de profil">
+            </a>
         </figure>
         <h1>Jean-Philippe HEURTEUX</h1>
         <h2>Développer Web Junior</h2>
     </header>
     <address>
         <div>
-            218 chemin des palmier<br/>97600 Sun Iland 
+            <a href="https://www.google.fr/maps/place/15+Bd+Gouvion-Saint-Cyr,+75017+Paris/@48.8843582,2.2873919,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66f8e2edf7811:0x50ee2c22bbb22a6e!8m2!3d48.8843547!4d2.2899668!16s%2Fg%2F11csg8g7mn?entry=ttu">218 chemin des palmier<br/>97600 Sun Iland</a> 
         </div>
-        <div>
+        <div class="adress__align">
             <a href="john.Do@example.com">john.Do@example.com</a>
         </div>
-        <div>
+        <div class="adress__align">
             <a href="tel:+333555032"> +33 (0) 55 50 01 32</a>
         </div>
     </address>
@@ -38,13 +40,13 @@
         <div class="personal">
             <section>
                 <div class="title">
-                    <h3>A ppropos</h3>
+                    <h3>A propos</h3>
                 </div>
                 <div class="txt">
                     <p>Développeur web junior en reconversion depuis une carrière d'infirmier en réanimations, passionné par le monde du développement. Mon parcours atypique m'a doté de compétences précieuses telles que la gestion du stress et le travail d'équipe. Avec une formation solide, je suis a même d'utiliser les technologie les plus efficiante pour developper des application moderne. Ma transition reflète ma détermination à suivre ma passion et à contribuer de manière significative à des projets stimulants, tout en continuant à développer mes compétences pour exceller dans le domaine du développement web.</p>
                 </div>
-                </section>
-            <section >
+            </section>
+            <section>
                 <div class="title">
                     <h3>Langues parlées</h3>
                 </div>
@@ -67,9 +69,11 @@
             
             </section>
         </div>
-        <article> 
+        <div class="pro"> 
             <div>
-                <h3>Expériences professionnelles</h3>
+                <div class="title">
+                    <h3>Expériences professionnelles</h3>
+                </div>
                 <section>
                     <h4>Infirmier Diplomé d'Etat HYGIE Travail Temporaire</h4>
                     <p>De fevrier 2022 à janvier 2024</p>
@@ -88,7 +92,6 @@
                         <li>Réunion</li>
                         <li>Guadelouppe</li>
                         <li>Guyane</li>
-                        <li>...</li>
                     </ul>
                 </section>
                 <section>
@@ -122,52 +125,68 @@
                 <p>Libéré des obligation millitaire : VSL 2cole d'application du Génie</p>
             </div>
             <div>
-                <h3>Diplomes / Formations</h3>
+                <div class="title">
+                    <h3>Diplomes / Formations</h3>
+                </div>
                 <section>
                     <h4>Diplome d'Etat d'Infirmier</h4>
-                    <p>2009</p>
+                    <div>2009</div>
+                    <div>IFSI Hopital Avivenne Bobigny</div>
                 </section>
                 <section>
                     <h4>Diplome d'aide soignant (DPAS)</h4>
-                    <p>2005</p>
+                    <div>2005</div>
+                    <div>IFSO Angers</div>
                 </section>
                 <section>
                     <h4>Bacalauréat Science Médico Social (mention Bien)</h4>
-                    <p>2004</p>
+                    <div>2004</div>
+                    <div>Lycée Bainbridge Les Abymes</div>
                 </section>
                 <section>
-                    <h4>BEP electronique (mention Très Bien)</h4>
-                    <p>1993</p>
+                    <h4>BEP Electronique (mention Très Bien)</h4>
+                    <div>1993</div>
+                    <div>Lycée Chevrollier Angers</div>
                 </section>
             </div>
             <div>
                 <h3>Compétence</h3>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>HTML 5</li>
+                    <li>CSS3</li>
+                    <li>GitHub</li>
+                    <li>SharePoint</li>
+                    <li>Figma</li>
+                    <li>...</li>
                 </ul>
             </div>
-        </article>
+        </div>
     </main>
 
-    <div class="contener">    
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-    </div>
+
 
     <footer>
-        <div>
-            <img class="" src="asset/icon/linkedin.png" alt="linkedin">
-            <img class="" src="asset/icon/twitter.png" alt="twitter">
-            <img class="" src="asset/icon/github.png" alt="GitHub">
+        <div class="contener__icon">
+            <div class="icon-opacity">
+                <a href="https://www.linkedin.com/feed/" title="lien linkedin">
+                <img class="icon" src="./asset/icon/linkedin.png" alt="linkedin">
+                </a>
+            </div>
+            <div class="icon-opacity">
+                <a href="https://twitter.com/home" title="lien X">
+                <img class="icon" src="./asset/icon/twitter.png" alt="twitter">
+                </a>
+            </div>
+            <div class="icon-opacity">
+                <a href="https://github.com/giblimdev/cv-training" title="GitHub">
+                <img class="icon" src="./asset/icon/github.png" alt="GitHub">
+                </a>
+            </div>
         </div>
-        <p>dernière mise à jour<time datetime="2024-02-06 20:00">06/02/2024</time>.</p>
-        <a href="https://www.flaticon.com/fr/icones-gratuites/cv" title="cv icônes">Cv icônes créées par Freepik - Flaticon</a>
-        <p>logo Linnkedin : Rakib Hassan Rahim</p>
-        <p>Logo GitHub : Dave Gandy</p>
+            <p>dernière mise à jour<time datetime="2024-02-06 20:00">06/02/2024</time>.</p>
+            <p><a href="https://www.flaticon.com/fr/icones-gratuites/cv" title="cv icônes">Cv icônes créées par Freepik - Flaticon</a> - logo Linnkedin : Rakib Hassan Rahim - Logo GitHub : Dave Gandy</p>
+        
+            
     </footer>
 </div>
 </body>
