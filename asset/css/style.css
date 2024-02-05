@@ -30,13 +30,16 @@ figure{
 .profil__img:hover{
     cursor: zoom-in; 
 }
+h1, h2, h3, h4{
+    font-family: Lato, sans-serif;
+}
 h1{text-align: center;
     color: white;
-    font-family: Lato, sans-serif;
+   
 }
 h2{text-align: center;
     color: white;
-    font-family: Lato, sans-serif;
+    
 }
 address{
     background-color:  #2c1d27;
@@ -69,9 +72,6 @@ main{
     padding: 10px 30px 10px 0;
     color: white;
 }
-h3{
-    font-family: Lato, sans-serif;
-}
 .title{
     background-color: #dbc2a4;
     color: black;
@@ -83,20 +83,21 @@ h3{
 p{
     text-align: justify;
     text-indent: 1rem;
-    font-family: Raleway, sans-serif;   
+    font-family: Raleway, sans-serif; 
+    font-size: 1rem;  
 }
 ul{
     font-family: Raleway, sans-serif;
 }
 .pro{
-    padding: 10px;
+    padding: 1rem;
 }
 .pro>div>.title:hover{
     border-left: solid 5px #782221;
 }
 footer{
     background-color: #782221;
-    padding: 20px;
+    padding: 1rem;
 }
 .contener__icon{
     width: 200px;
@@ -116,6 +117,9 @@ footer>p{
 .mention{
     color:black;
 }
-.icon-opacity:hover{
+.icon__opacity:hover{
     opacity: 0.7;
+}
+small{
+    font-size: 0.5rem;
 }
